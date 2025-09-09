@@ -39,12 +39,10 @@ public static class AppSettilgsExtension
 
 
     /// <summary>
-    /// Конвертер UInt32 в 4 байта
+    /// Загрузка конфигурации
     /// </summary>
-    /// <param name="Value">Исходное число (UInt32)</param>
-    /// <param name="Dest">Результирующий набор байт</param>
-    /// <param name="DestStartIndex">Позиция в массиве Dest начиная с которой добавляются сконвертированные байты. После выполнения операции позиция смещается на 4</param>
-    /// <returns>true - успешно</returns>
+    /// <param name="appsettings"></param>
+    /// <returns></returns>
     public static List<WebConfigurationPage> LoadWebConfiguration(this AppSettingsModel appsettings)
     {
         var webPages = new List<WebConfigurationPage>();
@@ -63,6 +61,8 @@ public static class AppSettilgsExtension
         }
         return webPages;
     }
+
+
 
     /// <summary>
     /// Загрузка конфигурации из файла
