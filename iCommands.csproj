@@ -30,7 +30,6 @@
 	
 	<ItemGroup>
 	  <Compile Remove="command2.cs" />
-	  <Compile Remove="iCommands.config.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -62,9 +61,6 @@
 	  <EmbeddedResource Include="Config\appsettings.loc.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
-	  <None Include="iCommands.config.cs">
-	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-	  </None>
 	  <EmbeddedResource Include="Schema\OBJECT_DOCUMENT.vbs">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>

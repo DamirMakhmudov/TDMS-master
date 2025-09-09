@@ -26,7 +26,7 @@ public sealed class TestMasterMethod
     [TestMethod]
     public void TestIsNullOrEmpty()
     {
-        var lib = new CommandLib(null, null, null);
+        var lib = new CommandLib(null, null, null, null);
 
         checkIsNullOrEmpty(lib, lib);
 
