@@ -1,0 +1,7 @@
+﻿<objectDef id="OBJECT_DOCUMENT">
+	<commands>
+		<command idref="C_SET_DOC" />
+		<command idref="C_DOC_ATR_CLEAR" />
+	</commands>
+</objectDef>
+

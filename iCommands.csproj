@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TdmsExtensionVersion>1.0.2</TdmsExtensionVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>C:\Program Files (x86)\CSoft\TDMS Server 7.0\Extensions\ICommands</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>$(TdmsExtensionVersion)</Version>
+		<AssemblyVersion>$(TdmsExtensionVersion)</AssemblyVersion>
+		<FileVersion>$(TdmsExtensionVersion)</FileVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<BaseOutputPath>C:\Program Files (x86)\CSoft\TDMS Server 7.0\Extensions\ICommands</BaseOutputPath>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <Compile Remove="command2.cs" />
+	  <Compile Remove="iCommands.config.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="content\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="packages\**" />
+	  <Compile Remove="TdmsExtension.iCommands.Tests\**" />
+	  <EmbeddedResource Remove="packages\**" />
+	  <EmbeddedResource Remove="TdmsExtension.iCommands.Tests\**" />
+	  <None Remove="packages\**" />
+	  <None Remove="TdmsExtension.iCommands.Tests\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Config\appsettings.loc.json" />
+	  <None Remove="Schema\OBJECT_DOCUMENT.vbs" />
+	  <None Remove="Schema\OBJECT_DOCUMENT.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Config\appsettings.linux.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Config\appsettings.production.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Config\appsettings.loc.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <None Include="iCommands.config.cs">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </None>
+	  <EmbeddedResource Include="Schema\OBJECT_DOCUMENT.vbs">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Schema\OBJECT_DOCUMENT.xml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+		<PackageReference Include="System.Drawing.Common" Version="9.0.8" />
+		<PackageReference Include="Tdms.Web.Api" Version="7.0.162" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="content\assets\index-BS3Zmd53.js">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="content\assets\index-B_SY1GJM.css">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="content\index.html">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="content\indexHello.html">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="content\tdms.ico">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>
