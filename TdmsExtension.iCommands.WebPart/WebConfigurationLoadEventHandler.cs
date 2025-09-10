@@ -36,7 +36,25 @@ public class WebConfigurationLoadAfterEventHandler : IEventHandler<WebConfigurat
 
         Console.WriteLine($"Сервер {serverVersion}. Модуль расширений '{_appsettings.Name}'");
 
-        notification.Configuration.MainTabs.AddRange(_appsettings.LoadWebConfiguration());
+        var tabs = _appsettings.Disabled != true
+            ? _appsettings.LoadWebConfiguration()
+            : new()
+            {
+                //
+                // Конфигурация страниц назначается здесь при appsettings.Disabled = true
+                //
+                new()
+                {
+                    Caption = "СТРАНИЦА моя",
+                    BadgeText = "***",
+                    Src = "/index.html",
+                    Root = "iCommands.Index",
+                    Xclass = "tdms.view.panels.IFramePage",
+                    Persistent = false
+                }
+            };
+
+        notification.Configuration.MainTabs.AddRange(tabs);
 
         return Task.CompletedTask;
     }

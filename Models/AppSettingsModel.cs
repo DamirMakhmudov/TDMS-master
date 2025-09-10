@@ -6,6 +6,11 @@ public class AppSettingsModel
 {
     public string? Name { set; get; }
     public List<AppSettingPages>? Pages { set; get; }
+    
+    /// <summary>
+    /// Отключить загрузку конфигурации из appsettings
+    /// </summary>
+    public bool? Disabled { set; get; }
 }
 
 public class AppSettingPages

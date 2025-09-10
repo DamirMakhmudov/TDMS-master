@@ -13,43 +13,40 @@ public class iCommandsConfiguration
 {
     public iCommandsConfiguration()
     {
-        rootObjects = "";
-        supportedObjects = "O_PLAN_KSG, O_PLAN_WBS, O_PLAN_Activity, O_PLAN_Worker_Task";
-        availableModules = "ganttChart, loadChart, teamChart";
+        CountSubfolders = "500";
+        CountLevelSubfolders = 20;
+        SupportedForms = "Form1\r\nForm2\r\nForm3";
+        SupportedObjects = new() { "O_PLAN_Activity", "O_PLAN_Worker_Task" };
+        AvailableModules = new() { "ganttChart", "teamChart" };
         ShowDevMenu = false;
         DebugMode = true;
+        DisableAppsettingsConfiguration = true;
     }
 
-    #region Runtime properties
-
-    public List<string> RootObjects => StringToArray(rootObjects);
-    public List<string> SupportedObjects => StringToArray(supportedObjects);
-    public List<string> AvailableModules => StringToArray(availableModules);
-
-    #endregion Runtime properties
-
-    [Visible, Description("Объекты с котрых может открываться КСП"), DisplayName("Корневые объекты")]
-    public string rootObjects { get; set; }
-
-    [Visible, Description("Объекты котрые являются работами в КСП"), DisplayName("Поддерживаемые объекты")]
-    public string supportedObjects { get; set; }
-
-    [Visible, Description("Модули КСП, доступные для использования"), DisplayName("Доступные модули")]
-    public string availableModules { get; set; }
-
-    [Visible, Description("Показывать меню разработчика"), DisplayName("Меню разработчика")]
+    [Category("Разработка"), DisplayName("Меню разработчика"), Description("Показывать меню разработчика"), Visible]
     public bool ShowDevMenu { get; set; }
 
-    [Visible, Description("Режим отладки, фронтенд с внешенего сервера"), DisplayName("Режим отладки")]
+    [Category("Разработка"), DisplayName("Режим отладки"), Description("Режим отладки, фронтенд с внешенего сервера"), Visible]
     public bool DebugMode { get; set; }
 
-    private static List<string> StringToArray(string str, string delimiter = ",")
-    {
-        List<string> arr = new(str.Split(delimiter));
-        for (int index = 0; index < arr.Count; index++)
-        {
-            arr[index] = arr[index].Trim();
-        }
-        return arr;
-    }
+
+    [Category("Параметры"), DisplayName("Запретить загрузку конфигурации"), Description("Запретить загрузку конфигурации из appsettings.json"), Visible]
+    public bool DisableAppsettingsConfiguration { get; set; }
+
+    [Category("Папки"), DisplayName("Лимит всех вложенных подпапок"), Description("Максимально возможное количество вложенных папок на всех уровнях"), Visible]
+    [Options("100", "200", "500", "1000")]
+    public string CountSubfolders { get; set; }
+
+    [Category("Папки"), DisplayName("Лимит вложенных подпапок"), Description("Максимально возможное количество вложенных папок на каждом уровне"), Visible]
+    public int CountLevelSubfolders { get; set; }
+
+    [Category("Объекты"), DisplayName("Поддерживаемые формы"), Description("Формы в КСП"), Text, Visible]
+    public string SupportedForms { get; set; }
+
+    [Category("Объекты"), DisplayName("Поддерживаемые объекты"), Description("Объекты, котрые являются работами в КСП"), Visible]
+    public List<string> SupportedObjects { get; set; }
+
+    [Category("Объекты"), DisplayName("Доступные модули"), Description("Модули, доступные для использования"), Visible]
+    public List<string> AvailableModules { get; set; }
+
 }

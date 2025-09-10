@@ -1,19 +1,19 @@
 ﻿using Autofac;
 using System.Reflection;
 using Tdms;
-//using Tdms.Api;
+using Tdms.Api;
 using TdmsExtension.iCommands.Models;
 using static TdmsExtension.iCommands.Helpers.AppSettilgsExtension;
 
 namespace TdmsExtension.iCommands;
 
-//public class iCommandsModule : TDMSExtensionModule
-public class iCommandsModule : IModule
+[SwaggerHelp("iCommands", "v1", "Пример модуля расширений", "", "СиСофт Разработка", "support@tdms.ru", "https://tdms.ru/")]
+public class iCommandsModule : TDMSExtensionModule
 {
     public AppSettingsModel AppSettings { get; set; } = new AppSettingsModel();
+    public iCommandsConfiguration AppConfiguration { get; set; } = new iCommandsConfiguration();
 
-    //public override void Configure(ContainerBuilder builder)
-    public void Configure(ContainerBuilder builder)
+    public override void Configure(ContainerBuilder builder)
     {
         AppSettings = GetConfigurationJson();
 
@@ -27,15 +27,14 @@ public class iCommandsModule : IModule
         builder.RegisterConfig<iCommandsConfiguration>();
     }
 
-    //public override void Start(ILifetimeScope scope)
-    public void Start(ILifetimeScope scope)
+    public override void Start(ILifetimeScope scope)
     {
-        scope.Resolve<iCommandsConfiguration>();
+        AppConfiguration = scope.Resolve<iCommandsConfiguration>();
     }
 
-    //public override void Stop()
-    //{
-    //}
+    public override void Stop()
+    {
+    }
 
 }
 

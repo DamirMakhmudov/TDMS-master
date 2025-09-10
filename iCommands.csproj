@@ -33,10 +33,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="content\**" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Compile Remove="packages\**" />
 	  <Compile Remove="TdmsExtension.iCommands.Tests\**" />
 	  <EmbeddedResource Remove="packages\**" />
@@ -67,6 +63,26 @@
 	  <EmbeddedResource Include="Schema\OBJECT_DOCUMENT.xml">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
+	  <EmbeddedResource Include="TdmsExtension.iCommands.WebPart\content\assets\index-BS3Zmd53.js">
+		  <Link>content\assets\index-BS3Zmd53.js</Link>
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="TdmsExtension.iCommands.WebPart\content\assets\index-B_SY1GJM.css">
+		  <Link>content\assets\index-B_SY1GJM.css</Link>
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="TdmsExtension.iCommands.WebPart\content\index.html">
+		  <Link>content\index.html</Link>
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="TdmsExtension.iCommands.WebPart\content\indexHello.html">
+		  <Link>content\aindexHello.html</Link>
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="TdmsExtension.iCommands.WebPart\content\tdms.ico">
+		  <Link>content\tdms.ico</Link>
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -77,24 +93,6 @@
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
 		<PackageReference Include="System.Drawing.Common" Version="9.0.8" />
 		<PackageReference Include="Tdms.Web.Api" Version="7.0.162" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <EmbeddedResource Update="content\assets\index-BS3Zmd53.js">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Update="content\assets\index-B_SY1GJM.css">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Update="content\index.html">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Update="content\indexHello.html">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </EmbeddedResource>
-	  <EmbeddedResource Update="content\tdms.ico">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </EmbeddedResource>
 	</ItemGroup>
 
 </Project>
