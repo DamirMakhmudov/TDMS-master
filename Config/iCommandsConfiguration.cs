@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using Tdms;
+using TdmsExtension.iCommands.Models;
 
 namespace TdmsExtension.iCommands;
 
 /// <summary>
-/// Класс конфигурации для настроек текущего расширения
+/// Класс конфигурации для настроек расширения
 /// </summary>
 [ModuleConfiguration]
 public class iCommandsConfiguration
@@ -37,6 +39,9 @@ public class iCommandsConfiguration
     [Category("Объекты"), DisplayName("Доступные модули"), Description("Модули, доступные для использования"), Visible]
     public List<string> AvailableModules { get; set; }
 
+    [Category("Объекты"), DisplayName("Доступные классы"), Description("Классы доступные для использования"), Visible]
+    public List<RqModel> AvailableClasses { get; set; }
+
 
     #region Вычисляемые свойства
 
@@ -59,6 +64,16 @@ public class iCommandsConfiguration
         ShowDevMenu = false;
         DebugMode = true;
         DisableAppsettingsConfiguration = true;
+
+        AvailableClasses = new()
+        {
+            new()
+            {
+                GUID = Guid.NewGuid().ToString(),
+                JName = "JName", 
+                JUser = "JUser"
+            }
+        };
     }
 
 }

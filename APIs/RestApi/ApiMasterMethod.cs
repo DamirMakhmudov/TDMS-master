@@ -25,7 +25,7 @@ public partial class TDMSAPIController : ControllerBase
     //[SwaggerResponse(200, "MasterMethod выполнен успешно")]
     //[SwaggerResponse(400, "Ошибка выполнения MasterMethod")]
     //[Route("commands/api"), HttpPost]
-    public ActionResult MasterMethod([FromBody] JRequest request)
+    public ActionResult MasterMethod([FromBody] RqModel request)
     {
         if (request == null)
         {

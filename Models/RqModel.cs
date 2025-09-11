@@ -2,7 +2,7 @@
 
 namespace TdmsExtension.iCommands.Models;
 
-public class JRequest
+public class RqModel
 {
     [JsonProperty("guid")]
     public string? GUID { set; get; }

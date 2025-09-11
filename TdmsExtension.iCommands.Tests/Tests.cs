@@ -10,7 +10,7 @@ public sealed class TestMasterMethod
     [TestMethod]
     public void TestMethod1()
     {
-        var dataMasterMethod = new JRequest
+        var dataMasterMethod = new RqModel
         {
             GUID = new Guid().ToString(),
             JName = "Имя J",
