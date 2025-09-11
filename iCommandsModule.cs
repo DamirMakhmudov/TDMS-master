@@ -21,10 +21,10 @@ public class iCommandsModule : TDMSExtensionModule
 
         builder.RegisterHandlers(executingAssembly);
 
+        builder.RegisterConfig<iCommandsConfiguration>();
+
         builder.RegisterType<iCommandsModule>();
         builder.RegisterInstance<iCommandsModule>(this);
-
-        builder.RegisterConfig<iCommandsConfiguration>();
     }
 
     public override void Start(ILifetimeScope scope)
