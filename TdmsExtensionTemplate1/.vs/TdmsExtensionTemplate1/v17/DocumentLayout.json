@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\helpers\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:helpers\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\helpers\\typeconverterextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:helpers\\typeconverterextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\helpers\\def.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:helpers\\def.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\helpers\\crc32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:helpers\\crc32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\apicommands\\getattributecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\apicommands\\getattributecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\apicommands\\libcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\apicommands\\libcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\apicommands\\objectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\apicommands\\objectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\apicontrols\\formdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\apicontrols\\formdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\apicontrols\\objectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\apicontrols\\objectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\restapi\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\restapi\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\restapi\\apiinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\restapi\\apiinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\restapi\\apimastermethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\restapi\\apimastermethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\acommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\acommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\apis\\scriptglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:apis\\scriptglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\webconfigurationloadeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:webconfigurationloadeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\tdmsextensiontemplate1module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:tdmsextensiontemplate1module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\subtests\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:subtests\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|c:\\users\\kireev.yuriy\\documents\\github\\tdms-master\\tdmsextensiontemplate1\\models\\jrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361A73C-6B32-43FA-8882-11107196B448}|TdmsExtensionTemplate1.csproj|solutionrelative:models\\jrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAttributeCommands.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiCommands\\GetAttributeCommands.cs",
+              "RelativeDocumentMoniker": "APIs\\ApiCommands\\GetAttributeCommands.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiCommands\\GetAttributeCommands.cs",
+              "RelativeToolTip": "APIs\\ApiCommands\\GetAttributeCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:45:56.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibCommands.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiCommands\\LibCommands.cs",
+              "RelativeDocumentMoniker": "APIs\\ApiCommands\\LibCommands.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiCommands\\LibCommands.cs",
+              "RelativeToolTip": "APIs\\ApiCommands\\LibCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:45:49.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObjectDocument.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiCommands\\ObjectDocument.cs",
+              "RelativeDocumentMoniker": "APIs\\ApiCommands\\ObjectDocument.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiCommands\\ObjectDocument.cs",
+              "RelativeToolTip": "APIs\\ApiCommands\\ObjectDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:45:43.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Options.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\Options.cs",
+              "RelativeDocumentMoniker": "Helpers\\Options.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\Options.cs",
+              "RelativeToolTip": "Helpers\\Options.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:20:27.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TypeConverterExtension.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\TypeConverterExtension.cs",
+              "RelativeDocumentMoniker": "Helpers\\TypeConverterExtension.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\TypeConverterExtension.cs",
+              "RelativeToolTip": "Helpers\\TypeConverterExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:12:19.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Def.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\Def.cs",
+              "RelativeDocumentMoniker": "Helpers\\Def.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\Def.cs",
+              "RelativeToolTip": "Helpers\\Def.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:40:23.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crc32.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\Crc32.cs",
+              "RelativeDocumentMoniker": "Helpers\\Crc32.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Helpers\\Crc32.cs",
+              "RelativeToolTip": "Helpers\\Crc32.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:40:33.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDocument.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiControls\\FormDocument.cs",
+              "RelativeDocumentMoniker": "APIs\\ApiControls\\FormDocument.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiControls\\FormDocument.cs",
+              "RelativeToolTip": "APIs\\ApiControls\\FormDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:45:33.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ObjectDocument.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiControls\\ObjectDocument.cs",
+              "RelativeDocumentMoniker": "APIs\\ApiControls\\ObjectDocument.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ApiControls\\ObjectDocument.cs",
+              "RelativeToolTip": "APIs\\ApiControls\\ObjectDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:45:26.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Api.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\RestApi\\Api.cs",
+              "RelativeDocumentMoniker": "APIs\\RestApi\\Api.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\RestApi\\Api.cs",
+              "RelativeToolTip": "APIs\\RestApi\\Api.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:45:16.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiInfo.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\RestApi\\ApiInfo.cs",
+              "RelativeDocumentMoniker": "APIs\\RestApi\\ApiInfo.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\RestApi\\ApiInfo.cs",
+              "RelativeToolTip": "APIs\\RestApi\\ApiInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:45:08.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiMasterMethod.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\RestApi\\ApiMasterMethod.cs",
+              "RelativeDocumentMoniker": "APIs\\RestApi\\ApiMasterMethod.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\RestApi\\ApiMasterMethod.cs",
+              "RelativeToolTip": "APIs\\RestApi\\ApiMasterMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:44:57.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ACommands.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ACommands.cs",
+              "RelativeDocumentMoniker": "APIs\\ACommands.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ACommands.cs",
+              "RelativeToolTip": "APIs\\ACommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:44:43.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommandBase.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\CommandBase.cs",
+              "RelativeDocumentMoniker": "APIs\\CommandBase.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\CommandBase.cs",
+              "RelativeToolTip": "APIs\\CommandBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:44:34.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScriptGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ScriptGlobal.cs",
+              "RelativeDocumentMoniker": "APIs\\ScriptGlobal.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\APIs\\ScriptGlobal.cs",
+              "RelativeToolTip": "APIs\\ScriptGlobal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:44:20.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WebConfigurationLoadEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\WebConfigurationLoadEventHandler.cs",
+              "RelativeDocumentMoniker": "WebConfigurationLoadEventHandler.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\WebConfigurationLoadEventHandler.cs",
+              "RelativeToolTip": "WebConfigurationLoadEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:43:50.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TdmsExtensionTemplate1Module.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\TdmsExtensionTemplate1Module.cs",
+              "RelativeDocumentMoniker": "TdmsExtensionTemplate1Module.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\TdmsExtensionTemplate1Module.cs",
+              "RelativeToolTip": "TdmsExtensionTemplate1Module.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:43:37.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Subtests\\Test.cs",
+              "RelativeDocumentMoniker": "Subtests\\Test.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Subtests\\Test.cs",
+              "RelativeToolTip": "Subtests\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:43:20.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JRequest.cs",
+              "DocumentMoniker": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Models\\JRequest.cs",
+              "RelativeDocumentMoniker": "Models\\JRequest.cs",
+              "ToolTip": "C:\\Users\\kireev.yuriy\\Documents\\GitHub\\TDMS-master\\TdmsExtensionTemplate1\\Models\\JRequest.cs",
+              "RelativeToolTip": "Models\\JRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:43:05.732Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

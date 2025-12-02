@@ -1,0 +1,13 @@
+C:\Program Files (x86)\CSoft\TDMS Server 7.0\Extensions\TdmsExtensionTemplate1\TdmsExtensionTemplate1.deps.json
+C:\Program Files (x86)\CSoft\TDMS Server 7.0\Extensions\TdmsExtensionTemplate1\TdmsExtensionTemplate1.dll
+C:\Program Files (x86)\CSoft\TDMS Server 7.0\Extensions\TdmsExtensionTemplate1\TdmsExtensionTemplate1.pdb
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExtensionTemplate1.csproj.AssemblyReference.cache
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExtensionTemplate1.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExtensionTemplate1.AssemblyInfoInputs.cache
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExtensionTemplate1.AssemblyInfo.cs
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExtensionTemplate1.csproj.CoreCompileInputs.cache
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExte.7001723E.Up2Date
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExtensionTemplate1.dll
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\refint\TdmsExtensionTemplate1.dll
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\TdmsExtensionTemplate1.pdb
+C:\CSoft\CSharp\TdmsExtensionTemplate1\obj\Debug\ref\TdmsExtensionTemplate1.dll

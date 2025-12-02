@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>C:\Program Files (x86)\CSoft\TDMS Server 7.0\Extensions\TdmsExtensionTemplate1</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<BaseOutputPath>C:\Program Files (x86)\CSoft\TDMS Server 7.0\Extensions\TdmsExtensionTemplate1</BaseOutputPath>
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <Compile Remove="command2.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="content\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="packages\**" />
+	  <Compile Remove="TdmsExtension.iCommands.Tests\**" />
+	  <EmbeddedResource Remove="packages\**" />
+	  <EmbeddedResource Remove="TdmsExtension.iCommands.Tests\**" />
+	  <None Remove="packages\**" />
+	  <None Remove="TdmsExtension.iCommands.Tests\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+		<PackageReference Include="Swashbuckle" Version="5.6.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.3.2" />
+		<PackageReference Include="System.Drawing.Common" Version="9.0.8" />
+		<PackageReference Include="Tdms.Web.Api" Version="7.0.159" />
+	</ItemGroup>
+
+</Project>
